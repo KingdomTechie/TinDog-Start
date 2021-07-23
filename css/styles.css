@@ -16,13 +16,14 @@ h1 {
 } */
 
 ul {
-    /* padding-bottom: 10px; */
+    /* white-space: nowrap; */
+    
+}
+
+li {
+    display: inline-block;
 }
 /* Navigation Bar */
-
-nav {
-    /* position: relative; */
-}
 
 .navbar {
     padding-bottom: 4.5rem;
@@ -68,4 +69,5 @@ nav {
     transform: rotate(20deg);
     padding-top: 8%;
     padding-left: 10%;
+    width: 60%;
 }
