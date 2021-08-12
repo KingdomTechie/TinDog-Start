@@ -21,7 +21,7 @@ h2 {
 /* Testimonal section */
 
 #testimonials {
-    padding: 3% 15%;
+    
     text-align: center;
     background-color: #ef8172;
     color: white;
@@ -44,6 +44,9 @@ h2 {
     margin: 20px 20px 50px;
 }
 
+.carousel-item {
+    padding: 3% 15%;
+}
 /* FEATURES */
 
 
