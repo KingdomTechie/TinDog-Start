@@ -50,6 +50,9 @@ h2 {
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 2;
 }
 
 .icon {
@@ -104,27 +107,32 @@ li {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 5%;
 }
 
-.title_buttons {
-    padding-top: 5%;
-}
 
 .android_button {
     margin-left: 9px;
 }
 
+/* Title section  */
+.title_buttons {
+    padding-top: 5%;
+}
+
 #title {
     background-color: #ff4c68;
     color: white;
+    padding-bottom: 50px;
+    /* position: absolute; */
 }
 
 #phone_dog {
     transform: rotate(20deg);
-    padding-top: 8%;
-    padding-left: 10%;
+    padding-top: 5%;
+    padding-left: 8%;
     width: 60%;
+    position: absolute;
 }
 
 /* Pricing Section */
