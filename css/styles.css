@@ -17,6 +17,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+.red-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
 /* ---------------------------
        Navigation Bar 
 ------------------------------*/
@@ -59,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #title {
-    background-color: #ff4c68;
+    
     color: white;
     padding-bottom: 50px;
     text-align: left;
@@ -87,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #features {
     padding: 7% 15%;
-    background-color: white;
+    
     position: relative;
     z-index: 2;
 }
@@ -185,11 +194,9 @@ Testimonal section
 --------------------------------*/
 
 #cta {
-    background-color: #ff4c68;
-    padding: 8%;
-    font-family: "Montserrat", sans-serif;
+    
+    padding: 5%;
     font-weight: bolder;
-    color: white;
 }
 
 /* ---------------------------
@@ -198,7 +205,6 @@ Testimonal section
 
 #footer {
     padding: 50px;
-    background-color: white;
 }
 
 .footer_icons {
