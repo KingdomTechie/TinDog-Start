@@ -111,13 +111,13 @@ li {
 }
 
 
-.android_button {
-    margin-left: 9px;
-}
 
 /* Title section  */
 .title_buttons {
     padding-top: 5%;
+}
+.android_button {
+    margin-left: 9px;
 }
 
 #title {
@@ -148,6 +148,32 @@ li {
     text-align: center;
 }
 
+/* Call to Action  */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 8%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.footer_icons {
+    padding: 1%;
+}
+
+.footer_icons i {
+    padding: 1% 1%;
+}
+
+/* Media query  */
 @media (max-width: 1028px) {
 
     #title {
