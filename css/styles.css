@@ -147,3 +147,14 @@ li {
 .pricing-card {
     text-align: center;
 }
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    #phone_dog {
+        position: static;
+        transform: rotate(0);
+    }
+}
